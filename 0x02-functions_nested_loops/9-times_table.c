@@ -5,9 +5,10 @@
  *
  * Return: Always 0.
  */
-void times_table(void);
+void times_table(void)
 {
 	int x, y, z, u, d;
+
 	for (x = 0; x <= 9; x++)
 	{
 	for (y = 0; y <= 9; y++)
@@ -24,7 +25,7 @@ void times_table(void);
 	}
 	else
 	{
-	of (y != 0)
+	if (y != 0)
 	{
 	_putchar(44);
 	_putchar(32);
@@ -34,4 +35,5 @@ void times_table(void);
 	}
 	}
 	_putchar('\n');
+	}
 }
