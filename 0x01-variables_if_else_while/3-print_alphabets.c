@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	int n = 65;
-	int s = 97;
+	int n = 97;
+	int s = 65;
 
-	while (n <= 90)
+	while (n <= 122)
 	{
 		putchar(n);
 		n++;
 	}
-	while (s <= 122)
+	while (s <= 90)
 	{
 		putchar(s);
 		s++;
