@@ -2,8 +2,8 @@
 
 /**
  * main - entry point
- * Description: 'puts recursion'
- * @s: string
+ * Description: 'puts with recursion'
+ * @s: pointer
  * return 0.
  */
 
